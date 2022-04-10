@@ -24,6 +24,11 @@
             android:name=".PerkSelectOneActivity">
         </activity>
 
+        <activity
+            android:name=".PerkResult"
+            android:exported="true">
+        </activity>
+
     </application>
 
 

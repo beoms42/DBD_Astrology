@@ -28,5 +28,6 @@ public class ZombleAlive extends Application {
     public ArrayList<String> getPerks() {
         return perkList;
     }
+
     public HashMap<String, String> getPerksMap(){ return perkMap; }
 }
