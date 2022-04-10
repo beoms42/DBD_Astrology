@@ -31,7 +31,8 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical">
 
 
         <com.wajahatkarim3.easyflipview.EasyFlipView
@@ -65,6 +66,31 @@
                 android:gravity="center"
                 android:src="@drawable/perks_touch_to_open" />
         </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        <TextView
+            android:id="@+id/perkCategory"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/pafreca"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="70dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/perkDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pafreca"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="40dp"></TextView>
     </LinearLayout>
 
 
