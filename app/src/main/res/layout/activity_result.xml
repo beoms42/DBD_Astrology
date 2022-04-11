@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/perks_bond"></ImageView>
+            android:src="@drawable/perks_agitation"></ImageView>
 
         <ImageView
             android:id="@+id/perks_3"
@@ -68,7 +68,7 @@
         android:layout_gravity="center"
         android:fontFamily="@font/pafreca"
         android:orientation="vertical"
-        android:text="오늘은 해피데이"
+        android:text="오늘은 해피해피데이"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="50dp"
